@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import { Button } from '../components/Button';
 
 import illustrationImg from '../assets/images/illustration.svg';
@@ -26,7 +28,7 @@ export function NewRoom() {
               Criar sala
             </Button>
           </form>
-          <p>Quer entrar em uam sala existente? <a href="#">clique aqui</a></p>
+          <p>Quer entrar em uam sala existente? <Link to="/">clique aqui</Link></p>
         </div>
       </main>
     </div>
