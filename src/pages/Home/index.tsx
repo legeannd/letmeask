@@ -1,16 +1,16 @@
 import { useHistory } from 'react-router-dom';
 
-import { Button } from '../components/Button';
+import { Button } from '../../components/Button';
 
-import illustrationImg from '../assets/images/illustration.svg';
-import logoImg from '../assets/images/logo.svg';
-import googleIconImg from '../assets/images/google-icon.svg';
+import illustrationImg from '../../assets/images/illustration.svg';
+import logoImg from '../../assets/images/logo.svg';
+import googleIconImg from '../../assets/images/google-icon.svg';
 
-import '../styles/auth.scss';
-import { useAuth } from '../hooks/useAuth';
+import './styles.scss';
+import { useAuth } from '../../hooks/useAuth';
 import { FormEvent } from 'react';
 import { useState } from 'react';
-import { database } from '../services/firebase';
+import { database } from '../../services/firebase';
 
 export function Home() {
   const [roomCode, setRoomCode] = useState('');
