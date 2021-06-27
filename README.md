@@ -1,46 +1,102 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="src/assets/images/logo.svg"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Letmeask
+![stacks](https://img.shields.io/badge/ReactJS-v17.0.2-brightgreen) ![stacks](https://img.shields.io/badge/Firebase-v8.6.8-brightgreen) ![stacks](https://img.shields.io/badge/Stack-Typescript-blue) ![GitHub](https://img.shields.io/github/license/legeannd/letmeask)
 
-## Available Scripts
 
-In the project directory, you can run:
+<p align="center">
+  <img src="uploads/capa.png"/>
+</p>
 
-### `yarn start`
+<p align="center">
+  <img width="800" src="uploads/web.gif"/>
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+* [Content (en-US)](#section-en_us)
+* [Conteúdo (pt-BR)](#secao-pt_br)
 
-### `yarn test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## About the project <a id="section-en_us"></a>
 
-### `yarn build`
+Letmeask is a platform for creating question rooms, where the user can create and manage their room, as well as participate in rooms created by other users, where it is possible to create a new question in the room or enjoy existing messages. Questions are created in real-time and are shown to the user as they are created due to Firebase's realtime database functionality.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Content
+  * [Techs](#techs)
+  * [How to run the project](#installation)
+    * [Installation - Frontend](#installation-front)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Techs <a id="techs"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] React
+- [x] Firebase
+- [x] Sass
 
-### `yarn eject`
+## How to execute the project <a id="installation"></a>
+To execute the project, you'll need to have Node and NPM or Yarn installed to setup all the dependencies.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation - Front-end (Web) <a id="installation-front"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+In the project root folder:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+npm install
+npm run start
+```
 
-## Learn More
+If you are using Yarn, use this:
+```bash
+yarn install
+yarn start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Remember to create a .env file to put the enviroment variables exemplified in the .env.example file with your personal data.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+After finishing installation, the web page will be open in your browser.
+
+---
+
+## Sobre o projeto <a id="secao-pt_br"></a>
+
+Letmeask é uma plataforma para criação de salas de perguntas, onde o usuário pode criar e gerenciar sua sala, além de poder participar de salas criadas por outros usuários, onde é possível criar uma nova pergunta na sala ou curtir mensagens já existentes. As perguntas são criadas em tempo real e são mostradas ao usuário conforme são criadas, devido à funcionalidade de banco de dados em tempo real do Firebase.
+
+## Conteúdos
+  * [Tecnologias](#tecnlogias)
+  * [Como executar o projeto](#instalacao)
+    * [Instalação - Front-end](#instalacao-front)
+
+## Tecnologias <a id="tecnologias"></a>
+
+- [x] React
+- [x] Firebase
+- [x] Sass
+
+## Como executar o projeto <a id="instalacao"></a>
+Para executar o projeto, você irá precisar ter o Node e o NPM ou Yarn instalados para baixar as dependências.
+
+
+### Instalação - Front-end (Web) <a id="instalacao-front"></a>
+
+Na pasta raíz do repositório:
+
+```bash
+npm install
+npm run dev
+```
+
+Se estiver usando Yarn, utilize
+```bash
+yarn install
+yarn dev
+```
+
+Lembre-se de criar um arquivo .env para colocar as variáveis de ambiente exemplificadas no arquivo .env.example com os seus dados pessoais.
+
+Quando terminar, a página da aplicação web será aberta no navegador.
+
+---
+###### Developed by [Gean Lucas](https://www.linkedin.com/in/geanlucaas/) :rocket:.
